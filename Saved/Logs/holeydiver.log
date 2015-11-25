@@ -1,0 +1,249 @@
+﻿[2015.11.25-15.44.44:246][  0]Log file open, 11/25/15 17:44:44
+[2015.11.25-15.44.44:246][  0]LogInit:Display: Running engine for game: holeydiver
+[2015.11.25-15.44.44:246][  0]LogPlatformFile: Not using cached read wrapper
+[2015.11.25-15.44.44:246][  0]LogInit:Display: RandInit(247087231) SRandInit(247087232).
+[2015.11.25-15.44.44:246][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.11.25-15.44.44:246][  0]LogStats: Stats thread started at 0.067088
+[2015.11.25-15.44.44:246][  0]LogInit: Version: 4.10.0-2758231+++depot+UE4-Releases+4.10
+[2015.11.25-15.44.44:246][  0]LogInit: API Version: 2758231
+[2015.11.25-15.44.44:246][  0]LogInit: Compiled (64-bit): Nov  7 2015 05:13:45
+[2015.11.25-15.44.44:246][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2015.11.25-15.44.44:246][  0]LogInit: Build Configuration: Development
+[2015.11.25-15.44.44:246][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2015.11.25-15.44.44:246][  0]LogInit: Command line:  
+[2015.11.25-15.44.44:246][  0]LogInit: Base directory: D:/Unreal Engine/Epic Games/4.10/Engine/Binaries/Win64/
+[2015.11.25-15.44.44:246][  0]LogInit: Rocket: 1
+[2015.11.25-15.44.44:251][  0]LogInit: Using libcurl 7.41.0
+[2015.11.25-15.44.44:251][  0]LogInit:  - built for x86_64-pc-win32
+[2015.11.25-15.44.44:251][  0]LogInit:  - supports SSL with WinSSL
+[2015.11.25-15.44.44:251][  0]LogInit:  - other features:
+[2015.11.25-15.44.44:251][  0]LogInit:      CURL_VERSION_SSL
+[2015.11.25-15.44.44:251][  0]LogInit:      CURL_VERSION_IPV6
+[2015.11.25-15.44.44:251][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.11.25-15.44.44:251][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.11.25-15.44.44:251][  0]LogInit:      CURL_VERSION_IDN
+[2015.11.25-15.44.44:251][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.11.25-15.44.44:251][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.11.25-15.44.44:251][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.11.25-15.44.44:251][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.11.25-15.44.44:251][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.11.25-15.44.44:257][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.25-15.44.44:262][  0]LogInit: Object subsystem initialized
+[2015.11.25-15.44.44:262][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.25-15.44.44:262][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.25-15.44.44:269][  0]LogInit: Computer: MOUGARI-PC
+[2015.11.25-15.44.44:269][  0]LogInit: User: MOUGARI
+[2015.11.25-15.44.44:269][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.11.25-15.44.44:269][  0]LogInit: High frequency timer resolution =3.410077 MHz
+[2015.11.25-15.44.44:269][  0]LogMemory: Memory total: Physical=7.7GB (8GB approx)
+[2015.11.25-15.44.44:269][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.25-15.44.44:269][  0]LogMemory: Process Physical Memory: 56.15 MB used, 56.15 MB peak
+[2015.11.25-15.44.44:269][  0]LogMemory: Process Virtual Memory: 56.76 MB used, 56.76 MB peak
+[2015.11.25-15.44.44:269][  0]LogMemory: Physical Memory: 3473.30 MB used, 7888.14 MB total
+[2015.11.25-15.44.44:269][  0]LogMemory: Virtual Memory: 382.28 MB used, 134217728.00 MB total
+[2015.11.25-15.44.44:296][  0]LogTextLocalizationManager: No translations for ('fi-FI') exist, falling back to 'en' for localization and internationalization data.
+[2015.11.25-15.44.44:654][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 760 (Feature Level 11_0)
+[2015.11.25-15.44.44:654][  0]LogD3D11RHI: Adapter has 4026MB of dedicated video memory, 0MB of dedicated system memory, and 3944MB of shared system memory, 1 output[s]
+[2015.11.25-15.44.44:659][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.11.25-15.44.44:659][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 3944MB of shared system memory, 1 output[s]
+[2015.11.25-15.44.44:660][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.11.25-15.44.44:660][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 3944MB of shared system memory, 0 output[s]
+[2015.11.25-15.44.44:660][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.25-15.44.44:662][  0]LogD3D11RHI: !Direct3DDevice
+[2015.11.25-15.44.44:662][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.11.25-15.44.44:673][  0]LogD3D11RHI: Async texture creation enabled
+[2015.11.25-15.44.45:060][  0]LogShaderCompilers: Guid format shader working directory is 12 characters bigger than the processId version (../../../../../../gamedev/holeydiver/Intermediate/Shaders/WorkingDirectory/2108/).
+[2015.11.25-15.44.45:060][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/MOUGARI/AppData/Local/Temp/UnrealShaderWorkingDir/04121DCF4852CC5298C66E9698892749/'.
+[2015.11.25-15.44.45:060][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.11.25-15.44.45:647][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.11.25-15.44.45:651][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.11.25-15.44.45:654][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.11.25-15.44.45:657][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.11.25-15.44.45:661][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.11.25-15.44.45:663][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.11.25-15.44.45:665][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.11.25-15.44.45:667][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.11.25-15.44.45:669][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.11.25-15.44.45:671][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.11.25-15.44.45:673][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.11.25-15.44.45:678][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2015.11.25-15.44.45:678][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.11.25-15.44.45:678][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.11.25-15.44.45:694][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.11.25-15.44.45:696][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.11.25-15.44.45:698][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.11.25-15.44.45:700][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.11.25-15.44.45:700][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.25-15.44.45:759][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.25-15.44.45:805][  0]LogDerivedDataCache: Loaded boot cache 0.05s 41MB C:/Users/MOUGARI/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.11.25-15.44.45:805][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/MOUGARI/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2015.11.25-15.44.45:805][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../gamedev/holeydiver/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.25-15.44.45:805][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.25-15.44.45:805][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../gamedev/holeydiver/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.11.25-15.44.45:805][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.11.25-15.44.45:853][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.25-15.44.45:865][  0]LogDerivedDataCache: Using Local data cache path C:/Users/MOUGARI/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.25-15.44.45:994][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.25-15.44.45:996][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.25-15.44.46:077][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.25-15.44.46:077][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.25-15.44.46:249][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.25-15.44.46:751][  0]LogWmfMedia: Failed to load mf.dll
+[2015.11.25-15.44.46:751][  0]LogWmfMedia: Failed to load required Windows Media Foundation libraries
+[2015.11.25-15.44.46:758][  0]LogWindowsMoviePlayer: Could not load mf.dll. Library not found.
+[2015.11.25-15.44.46:759][  0]LogWindowsMoviePlayer: Could not load mfplat.dll. Library not found.
+[2015.11.25-15.44.46:760][  0]LogWindowsMoviePlayer: Could not load mfplay.dll. Library not found.
+[2015.11.25-15.44.46:812][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.25-15.44.46:898][  0]LogAssetRegistry: FAssetRegistry took 0.0110 seconds to start up
+[2015.11.25-15.44.47:014][  0]SourceControl: Info Source control is disabled
+[2015.11.25-15.44.47:020][  0]SourceControl: Info Source control is disabled
+[2015.11.25-15.44.47:028][  0]SourceControl: Info Source control is disabled
+[2015.11.25-15.44.47:038][  0]SourceControl: Info Source control is disabled
+[2015.11.25-15.44.47:201][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2015.11.25-15.44.47:201][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2015.11.25-15.44.47:247][  0]LogEngine: Initializing Engine...
+[2015.11.25-15.44.47:248][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.11.25-15.44.47:249][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.11.25-15.44.47:336][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.25-15.44.47:341][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.25-15.44.47:350][  0]LogInit: FAudioDevice initialized.
+[2015.11.25-15.44.47:376][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/MOUGARI/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.11.25-15.44.47:383][  0]LogInit: Texture streaming: Enabled
+[2015.11.25-15.44.47:387][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.25-15.44.47:387][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.0-2758231+++depot+UE4-Releases+4.10
+[2015.11.25-15.44.47:387][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 6350c93d4689ecbaf7f40780c383a2e4|628d59eeb389489aa9609aa26282ed3f|56afce5c-af0c-4819-8e9d-8a63f8f27589
+[2015.11.25-15.44.47:387][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.11.25-15.44.47:394][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.11.25-15.44.47:409][  0]LogInit: Transaction tracking system initialized
+[2015.11.25-15.44.47:430][  0]BlueprintLog: New page: Editor Load
+[2015.11.25-15.44.47:488][  0]LocalizationService: Info Localization service is disabled
+[2015.11.25-15.44.47:651][  0]LogConsoleResponse:Display: 
+[2015.11.25-15.44.47:729][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.25-15.44.47:772][  0]LogFileCache: Scanning file cache for directory 'D:/gamedev/holeydiver/Content/' took 0.01s
+[2015.11.25-15.44.47:772][  0]SourceControl: Info Source control is disabled
+[2015.11.25-15.44.47:772][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.25-15.44.47:772][  0]LightingResults: New page: Lighting Build
+[2015.11.25-15.44.47:774][  0]MapCheck: New page: Map Check
+[2015.11.25-15.44.47:774][  0]LightingResults: New page: Lighting Build
+[2015.11.25-15.44.47:782][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000011F85A1EAC0
+[2015.11.25-15.44.47:954][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2015.11.25-15.44.47:958][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.25-15.44.47:961][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.25-15.44.47:991][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 29.737ms to complete.
+[2015.11.25-15.44.47:991][  0]LogFileHelpers: Loading map 'Template_Default' took 0.220
+[2015.11.25-15.44.48:096][  0]LogCollectionManager: Loaded 0 collections in 0.001630 seconds
+[2015.11.25-15.44.48:134][  0]LogFileCache: Scanning file cache for directory 'D:/gamedev/holeydiver/Saved/Collections/' took 0.01s
+[2015.11.25-15.44.48:134][  0]LogFileCache: Scanning file cache for directory 'D:/gamedev/holeydiver/Content/Developers/MOUGARI/Collections/' took 0.01s
+[2015.11.25-15.44.48:134][  0]LogFileCache: Scanning file cache for directory 'D:/gamedev/holeydiver/Content/Collections/' took 0.01s
+[2015.11.25-15.44.48:134][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.11.25-15.44.48:140][  0]LogContentBrowser: Native class hierarchy populated in 0.0055 seconds. Added 1893 classes and 338 folders.
+[2015.11.25-15.44.48:145][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2015.11.25-15.44.48:174][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.11.25-15.44.48:177][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2015.11.25-15.44.48:209][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.11.25-15.44.48:213][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.11.25-15.44.48:235][  0]LogLoad: Full Startup: 4.29 seconds (BP compile: 0.03 seconds)
+[2015.11.25-15.44.48:246][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.11.25-15.44.48:294][  0]LogContentStreaming: Texture pool size now 400 MB
+[2015.11.25-15.44.48:409][  0]LogRenderer: Reallocating scene render targets to support 1032x580 (Frame:2).
+[2015.11.25-15.44.48:529][  3]LogAssetRegistry: Asset discovery search completed in 1.6412 seconds
+[2015.11.25-15.44.48:529][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.11.25-15.44.48:529][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000015 seconds (updated 0 objects)
+[2015.11.25-15.44.58:714][609]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'XAxis' for  InputAction XAxis 
+[2015.11.25-15.44.58:715][609]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump 
+[2015.11.25-15.44.58:719][609]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0014.77] Compile of ThirdPersonCharacter successful, but with 2 Warning(s) [in 28 ms]
+[2015.11.25-15.44.58:720][609]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0014.77] Compile of ThirdPersonCharacter successful, but with 3 Warning(s) [in 0 ms]
+[2015.11.25-15.44.58:720][609]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0014.77] Compile of ThirdPersonCharacter successful, but with 4 Warning(s) [in 0 ms]
+[2015.11.25-15.44.58:734][609]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'XAxis' for  InputAction XAxis 
+[2015.11.25-15.44.58:735][609]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump 
+[2015.11.25-15.44.58:740][609]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0014.79] Compile of ThirdPersonCharacter successful, but with 2 Warning(s) [in 16 ms]
+[2015.11.25-15.44.58:740][609]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0014.79] Compile of ThirdPersonCharacter successful, but with 3 Warning(s) [in 0 ms]
+[2015.11.25-15.44.58:740][609]LogBlueprint:Warning: [compiler ThirdPersonCharacter] Warning [0014.79] Compile of ThirdPersonCharacter successful, but with 4 Warning(s) [in 0 ms]
+[2015.11.25-15.44.58:829][609]LogAIModule: Creating AISystem for world MainMenu
+[2015.11.25-15.44.58:862][609]Cmd: MAP LOAD FILE="../../../../../../gamedev/holeydiver/Content/ThirdPersonBP/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.25-15.44.58:862][609]LightingResults: New page: Lighting Build
+[2015.11.25-15.44.58:873][609]LoadErrors: New page: Loading map: MainMenu.umap
+[2015.11.25-15.44.58:874][609]MapCheck: New page: Map Check
+[2015.11.25-15.44.58:874][609]LightingResults: New page: Lighting Build
+[2015.11.25-15.44.58:882][609]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000011FF9FAB600
+[2015.11.25-15.44.58:911][609]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.25-15.44.58:928][609]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.25-15.44.58:961][609]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 34.279ms to complete.
+[2015.11.25-15.44.58:961][609]LogFileHelpers: Loading map 'MainMenu' took 0.101
+[2015.11.25-15.45.00:909][839]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2015.11.25-15.45.00:909][839]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.25-15.45.00:940][839]PIE: New page: PIE session: MainMenu (Nov 25, 2015, 7:45:00 PM)
+[2015.11.25-15.45.00:940][839]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu
+[2015.11.25-15.45.00:954][839]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013577s)
+[2015.11.25-15.45.00:954][839]LogAIModule: Creating AISystem for world MainMenu
+[2015.11.25-15.45.00:954][839]LogPlayLevel: PIE: World Init took: (0.000582s)
+[2015.11.25-15.45.00:954][839]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/MainMenu.MainMenu to /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu (0.014333s)
+[2015.11.25-15.45.00:968][839]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.25-15.45.00:976][839]LogInit: FAudioDevice initialized.
+[2015.11.25-15.45.01:090][839]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.11.25-15.45.01:119][839]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2015.11.25-17.45.01
+[2015.11.25-15.45.01:119][839]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-15.45.01:119][839]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-15.45.01:120][839]LogWorld: Bringing up level for play took: 0.000937
+[2015.11.25-15.45.01:209][839]LogSkeletalMesh: UPhysicsAssetInstance::InitInstance : Could not find root physics body: CharacterMesh0
+[2015.11.25-15.45.01:304][839]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_MainMenu 0.065
+[2015.11.25-15.45.01:305][839]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2015.11.25-15.45.05:407][301]LogPackageName: SearchForPackageOnDisk took   0.041s to resolve ThirdPersonExampleMap.umap.
+[2015.11.25-15.45.05:447][301]LogPackageName: SearchForPackageOnDisk took   0.039s to resolve ThirdPersonExampleMap.umap.
+[2015.11.25-15.45.05:447][301]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2015.11.25-15.45.05:447][301]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2015.11.25-15.45.05:468][301]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000011FE57C63E0
+[2015.11.25-15.45.05:476][301]Cmd: MEM
+[2015.11.25-15.45.05:522][301]LogMemory: Platform Memory Stats for Windows
+[2015.11.25-15.45.05:522][301]LogMemory: Process Physical Memory: 643.20 MB used, 643.77 MB peak
+[2015.11.25-15.45.05:522][301]LogMemory: Process Virtual Memory: 973.70 MB used, 988.75 MB peak
+[2015.11.25-15.45.05:522][301]LogMemory: Physical Memory: 3949.82 MB used, 7888.14 MB total
+[2015.11.25-15.45.05:522][301]LogMemory: Virtual Memory: 1690.42 MB used, 134217728.00 MB total
+[2015.11.25-15.45.05:522][301]LogMemory: 
+[2015.11.25-15.45.05:522][301]Allocator Stats for TBB: (not implemented)
+[2015.11.25-15.45.06:201][301]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.11.25-15.45.06:201][301]LogWorld: Game class is 'GameMode'
+[2015.11.25-15.45.06:482][301]LogPhysics:Warning: PHYSX: f:\physx_integrations\partners\nvidia\ue4-physics\engine\source\thirdparty\physx\physx-3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.11.25-15.45.06:499][301]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.11.25-17.45.06
+[2015.11.25-15.45.06:499][301]LogActor:Warning: GameSession /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-15.45.06:499][301]LogActor:Warning: GameNetworkManager /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.25-15.45.06:516][301]LogWorld: Bringing up level for play took: 0.302408
+[2015.11.25-15.45.11:139][848]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2015.11.25-15.45.11:199][848]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2015.11.25-15.45.11:213][848]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000011FA7EE79C0
+[2015.11.25-15.45.39:747][183]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.11.25-15.45.39:773][183]Cmd: MAP LOAD FILE="../../../../../../gamedev/holeydiver/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.25-15.45.39:773][183]LightingResults: New page: Lighting Build
+[2015.11.25-15.45.39:784][183]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
+[2015.11.25-15.45.39:784][183]MapCheck: New page: Map Check
+[2015.11.25-15.45.39:784][183]LightingResults: New page: Lighting Build
+[2015.11.25-15.45.39:793][183]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000011F8EA73C40
+[2015.11.25-15.45.39:796][183]LogPhysics:Warning: PHYSX: f:\physx_integrations\partners\nvidia\ue4-physics\engine\source\thirdparty\physx\physx-3.3\source\physx\src\NpRigidBodyTemplate.h (437) 4 : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
+[2015.11.25-15.45.39:849][183]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.25-15.45.39:866][183]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.25-15.45.39:911][183]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.44ms to complete.
+[2015.11.25-15.45.39:911][183]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.139
+[2015.11.25-15.45.43:543][600]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.25-15.45.44:171][600]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 107 classes and 0 folders.
+[2015.11.25-15.45.44:838][600]LogSkeletalMesh: UPhysicsAssetInstance::InitInstance : Could not find root physics body: CharacterMesh0
+[2015.11.25-15.47.44:449][848]AssetReimport: New page: Outstanding source content changes 7:47:44 PM
+[2015.11.25-15.47.44:477][848]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 D:/gamedev/holeydiver/Content/holeydiver_projthumb.png)
+[2015.11.25-15.47.44:845][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/holeydiver_projthumb" FILE="../../../../../../gamedev/holeydiver/Content/holeydiver_projthumb.uasset" SILENT=true
+[2015.11.25-15.47.44:994][849]LogSavePackage: Save=124.738533ms
+[2015.11.25-15.47.44:994][849]LogSavePackage: Moving '../../../../../../gamedev/holeydiver/Saved/holeydiver_projthumb71CD216244B7FEF37DD1E2A08046F8D3.tmp' to '../../../../../../gamedev/holeydiver/Content/holeydiver_projthumb.uasset'
+[2015.11.25-15.47.44:997][849]LogSavePackage: Total save time: 140.604451ms
+[2015.11.25-15.47.44:997][849]LogSavePackage:Display: Finished SavePackage ../../../../../../gamedev/holeydiver/Content/holeydiver_projthumb.uasset
+[2015.11.25-15.47.48:097][859]AssetReimport: Info Importing new asset /Game/holeydiver_projthumb.
+[2015.11.25-15.47.52:315][862]AssetReimport: New page: Outstanding source content changes 7:47:52 PM
+[2015.11.25-15.47.52:384][862]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GFX/holeydiver_projthumb" FILE="../../../../../../gamedev/holeydiver/Content/GFX/holeydiver_projthumb.uasset" SILENT=true
+[2015.11.25-15.47.52:418][862]LogSavePackage: Save=33.197784ms
+[2015.11.25-15.47.52:418][862]LogSavePackage: Moving '../../../../../../gamedev/holeydiver/Saved/holeydiver_projthumb54669B8945F1EE420471B19B24BD94A5.tmp' to '../../../../../../gamedev/holeydiver/Content/GFX/holeydiver_projthumb.uasset'
+[2015.11.25-15.47.52:419][862]LogSavePackage: Total save time: 34.489542ms
+[2015.11.25-15.47.52:617][863]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GFX/holeydiver_projthumb" FILE="../../../../../../gamedev/holeydiver/Content/GFX/holeydiver_projthumb.uasset" SILENT=true
+[2015.11.25-15.47.52:629][863]LogSavePackage: Save=5.591369ms
+[2015.11.25-15.47.52:629][863]LogSavePackage: Moving '../../../../../../gamedev/holeydiver/Saved/holeydiver_projthumb001145DA429E76AF19DEA18A6F09358C.tmp' to '../../../../../../gamedev/holeydiver/Content/GFX/holeydiver_projthumb.uasset'
+[2015.11.25-15.47.52:630][863]LogSavePackage: Total save time: 12.122598ms
+[2015.11.25-15.47.52:630][863]LogSavePackage:Display: Finished SavePackage ../../../../../../gamedev/holeydiver/Content/GFX/holeydiver_projthumb.uasset
+[2015.11.25-15.47.55:642][ 36]AssetReimport: Info Moving asset /Game/holeydiver_projthumb to /Game/GFX/holeydiver_projthumb.
+[2015.11.25-15.48.32:892][214]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2015.11.25-15.48.33:041][2
